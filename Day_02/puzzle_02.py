@@ -37,4 +37,4 @@ for line in lines:
     nums =  [int(i) for i in line.split()]
     ans += is_really_safe(nums)
 
-print(ans) # ans = 465
+print(ans) 
