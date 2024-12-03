@@ -29,4 +29,4 @@ for line in lines:
     nums =  [int(i) for i in line.split()]
     ans += is_safe(nums)
 
-print(ans) # ans = 411
+print(ans) 
