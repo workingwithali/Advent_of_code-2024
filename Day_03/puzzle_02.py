@@ -1,6 +1,5 @@
 import re
 
-with open("./day_03.in") as fin:
     line = fin.read().strip()
 
 matches = re.findall(r"(?:mul\((\d+),(\d+)\))|(do\(\)|don't\(\))", line)
