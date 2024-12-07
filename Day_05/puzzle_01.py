@@ -11,9 +11,9 @@ with open(r"d:\Advent_of_code-2024\Day_05\day_05.in") as fin:
 def follows_rules(update):
     idx = {}
     for i, num in enumerate(update):
-        print(num)
         idx[num] = i
     
+    print(idx)
     for a, b in rules:
         if a in idx and b in idx and not idx[a] < idx[b]:
             return False, 0
