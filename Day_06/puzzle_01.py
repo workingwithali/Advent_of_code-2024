@@ -17,6 +17,14 @@ for i in range(n):
 
 
 dir = 0 
-dd = [[-1,0],[0,1],[]]
+dd = [[-1,0],[0,1],[1,0],[0,-1]]
+seen = set()
+while True:
+    seen.add((i,j))
+    next_i = i+dd[dir][0]
+    next_j = j+dd[dir][1]
+
+    if (0<next_i<n and 0<next_j<m):
+        
 
     
