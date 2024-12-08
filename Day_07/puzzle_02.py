@@ -1,6 +1,6 @@
 from itertools import product
 
-with open("./day_07.in") as fin:
+with open(r"d:\Advent_of_code-2024\Day_07\day_07.in") as fin:
     lines = fin.read().strip().split("\n")
 
 ans = 0
